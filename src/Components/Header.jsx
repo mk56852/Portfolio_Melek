@@ -3,7 +3,6 @@ import { Link } from "react-router-dom";
 import { Link as ScrollLink } from "react-scroll";
 
 export default function Header() {
-  const [mobileToggle, setMobileToggle] = useState(false);
   const [scrolled, setScrolled] = useState(false);
   useEffect(() => {
     const handleScroll = () => {
@@ -21,11 +20,11 @@ export default function Header() {
   }, []);
   return (
     <div
-      className={`header-top-fixed one-page-nav ${
-        mobileToggle ? "menu-open menu-open-desk" : ""
-      } ${scrolled ? "fixed-header" : ""}`}
+      className={`header-top-fixed one-page-nav  ${
+        scrolled ? "fixed-header" : ""
+      }`}
     >
-      <div className="container">
+      <div className="container ">
         <ul className="main-menu">
           <li>
             <ScrollLink
@@ -34,7 +33,6 @@ export default function Header() {
               smooth={true}
               offset={-80}
               duration={500}
-              onClick={() => setMobileToggle(false)}
             >
               Home
             </ScrollLink>
@@ -46,7 +44,6 @@ export default function Header() {
               smooth={true}
               offset={-80}
               duration={500}
-              onClick={() => setMobileToggle(false)}
             >
               About Me
             </ScrollLink>
@@ -58,7 +55,6 @@ export default function Header() {
               smooth={true}
               offset={-80}
               duration={500}
-              onClick={() => setMobileToggle(false)}
             >
               My projects
             </ScrollLink>
@@ -70,7 +66,6 @@ export default function Header() {
               smooth={true}
               offset={-80}
               duration={500}
-              onClick={() => setMobileToggle(false)}
             >
               Services
             </ScrollLink>
@@ -82,22 +77,11 @@ export default function Header() {
               smooth={true}
               offset={-80}
               duration={500}
-              onClick={() => setMobileToggle(false)}
             >
               Contact
             </ScrollLink>
           </li>
         </ul>
-
-        <div className="d-flex">
-          <button
-            className="toggler-menu d-lg-none"
-            onClick={() => setMobileToggle(!mobileToggle)}
-          >
-            <span />
-          </button>
-        </div>
-        {/* / */}
       </div>
     </div>
   );

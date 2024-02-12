@@ -136,16 +136,13 @@ a {
   }
 }
 
-/* ----------------------
-*   Home Banner
----------------------------*/
 .home-section {
   position: relative;
   overflow: hidden;
   z-index: 1;
-  padding-top: 150px;
+  padding-top: 130px;
   @include down-md {
-    padding-top: 130px;
+    padding-top: 120px;
   }
 
   .hs-text-box {
@@ -155,13 +152,13 @@ a {
     h6 {
       margin: 0 0 10px;
       span {
-        background: rgba(var(--px-theme-rgb), 0.2);
+        background: rgba(var(--px-theme-rgb), 0.3);
         border-radius: 4px;
         padding: 5px 12px;
         display: inline-block;
         color: var(--px-white);
-        font-weight: 400;
-        font-size: 16px;
+        font-weight: 600;
+        font-size: 25px;
         line-height: 20px;
         letter-spacing: 4px;
         text-transform: uppercase;
@@ -169,8 +166,8 @@ a {
     }
     h1 {
       color: var(--px-white);
-      font-weight: 700;
-      font-size: 70px;
+      font-weight: 500;
+      font-size: 40px;
       text-transform: uppercase;
       @include down-lg {
         font-size: 45px;
@@ -181,12 +178,12 @@ a {
     }
     h2 {
       color: var(--px-theme);
-      font-weight: 700;
-      font-size: 70px;
+      font-weight: 500;
+      font-size: 50px;
       text-transform: uppercase;
       margin: 0 0 30px;
       @include down-lg {
-        font-size: 45px;
+        font-size: 35px;
         margin: 0 0 20px;
       }
       @include down-sm {
@@ -210,6 +207,14 @@ a {
     .btn-bar {
       padding-top: 15px;
     }
+    
+  }
+  .avatar {
+    vertical-align: middle;
+    width: 300px;
+    height: 300px;
+    margin-bottom: 40px;
+    border-radius: 50%;
   }
 }
 
