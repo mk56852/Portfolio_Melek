@@ -8,17 +8,16 @@ export default function IntroSection() {
     <section className="home-section" id="home" data-scroll-index={0}>
       <div className="container">
         <div className="row align-items-center ">
-          <div className="col-lg-5 text-center ">
-            <img src="melek.jpg" alt="Avatar" className="avatar" />
+          <div className="col-lg-5  ">
+            <img src="melek.jpg" alt="Avatar" className="hs-banner avatar" />
+            <div className="hs-text-box"></div>
+          </div>
+          <div className="col-lg-1  "></div>
+          <div className="col-lg-6  ">
             <div className="hs-text-box">
               <h6 data-aos="fade-up" data-aos-duration="1200">
                 <span>{"melek ketata"}</span>
               </h6>
-            </div>
-          </div>
-
-          <div className="col-lg-7  ">
-            <div className="hs-text-box">
               <h1
                 data-aos="fade-up"
                 data-aos-duration="1500"
