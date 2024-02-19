@@ -227,6 +227,9 @@ a {
     position: relative;
     z-index: 1;
   }
+  .avatar{
+    border-radius: 30px ;
+  }
   .effect-1 {
     position: absolute;
     bottom: -50px;
@@ -284,6 +287,9 @@ a {
 /* ----------------------
 *   Projects
 ---------------------------*/
+.mini-text{
+  color: white;
+}
 .project-section {
   overflow: hidden;
   .owl-stage-outer {
@@ -293,7 +299,7 @@ a {
 .project-box {
   padding: 14px;
   border-radius: 10px;
-  background: var(--px-white);
+  background: rgba(200, 200, 200, 0.1);
   .project-media {
     position: relative;
     overflow: hidden;
@@ -345,7 +351,7 @@ a {
     padding-top: 20px;
     h5 {
       font-weight: 700;
-      color: var(--px-black);
+      color: var(--px-white);
       font-weight: 20px;
       margin: 0 0 5px;
     }
@@ -364,15 +370,15 @@ a {
         display: flex;
         align-items: center;
         justify-content: center;
-        background: var(--px-theme);
-        color: var(--px-white);
+        background: var(--px-white);
+        color: var(--px-black);
         font-size: 20px;
         border-radius: 50%;
-        border: 2px solid var(--px-black);
+        border: 1px solid var(--px-black);
         cursor: pointer;
         transition: all 0.4s ease;
         &:hover {
-          background: var(--px-black);
+          background: rgba(0, 0, 0, 0.1);
         }
       }
     }

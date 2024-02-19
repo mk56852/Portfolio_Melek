@@ -67,7 +67,7 @@ export default function Header() {
               offset={-80}
               duration={500}
             >
-              Services
+              Experiences
             </ScrollLink>
           </li>
           <li>

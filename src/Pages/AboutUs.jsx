@@ -26,7 +26,7 @@ export default function AboutUs({ data }) {
             data-aos-delay="500"
           >
             <div className="about-banner text-center">
-              <img src={imgSrc} alt="Thumb" />
+              <img src={imgSrc} alt="Thumb" className="avatar" />
             </div>
           </div>
           <div className="col-lg-6 col-xl-5 px-lg-5">
@@ -43,7 +43,7 @@ export default function AboutUs({ data }) {
                   </h6>
                 )}
 
-                {title && <h2>{parser(title)}</h2>}
+                {title && <h2 style={{ color: "white" }}>{parser(title)}</h2>}
               </div>
               <p>{description}</p>
               <div className="review-box">

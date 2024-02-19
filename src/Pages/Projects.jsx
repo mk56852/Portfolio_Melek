@@ -47,7 +47,9 @@ export default function Projects({ data }) {
             >
               <span>{"My Projects"}</span>
             </h6>
-            <h2>{parser("<span>Personal Projects</span>")}</h2>
+            <h2 className="mini-text">
+              {parser("Personal <span> Projects</span>")}
+            </h2>
           </div>
           <div
             className="full-width"
@@ -63,24 +65,20 @@ export default function Projects({ data }) {
                       <img src="logo192.png" alt="Thumb" />
                       <span
                         className="gallery-link"
-                        onClick={() => handelProjectDetails(item, "image")}
-                      >
-                        <i>
-                          <Icon icon="bi:plus" />
-                        </i>
-                      </span>
+                        onClick={() => handelProjectDetails(item, "details")} //() => handelProjectDetails(item, "image")}
+                      ></span>
                     </div>
                     <div className="project-body">
                       <div className="text">
                         <h5>{item.title}</h5>
-                        <span>{item.subTitle}</span>
+                        <span className="mini-text">{item.subTitle}</span>
                       </div>
                       <div className="link">
                         <span
                           className="p-link"
                           onClick={() => handelProjectDetails(item, "details")}
                         >
-                          <Icon icon="bi:arrow-right" />
+                          <Icon icon="ci:show" />
                         </span>
                       </div>
                     </div>

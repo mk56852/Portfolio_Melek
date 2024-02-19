@@ -2,6 +2,8 @@ import React, { useEffect } from "react";
 import IntroSection from "../Sections/IntroSection";
 import AboutUs from "./AboutUs";
 import Projects from "./Projects";
+import Experience from "./Experiences";
+import Contact from "./Contact";
 
 export default function Home() {
   return (
@@ -130,6 +132,47 @@ export default function Home() {
                 url: "www.example.com",
               },
             },
+          ],
+        }}
+      />
+
+      <Experience
+        allExperience={[
+          {
+            designation: "Front-end Developer",
+            company: "WELAB | REMOTE",
+            duration: "JAN 2019 - PRESENT",
+            jobType: "Full time",
+            companyTitle: "About Company",
+            companyDescription:
+              "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation .",
+          },
+          {
+            designation: "Front-end Developer",
+            company: "WELAB | REMOTE",
+            duration: "JAN 2019 - PRESENT",
+            jobType: "Full time",
+            companyTitle: "About Company",
+            companyDescription:
+              "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation .",
+          },
+          {
+            designation: "Front-end Developer",
+            company: "WELAB | REMOTE",
+            duration: "JAN 2019 - PRESENT",
+            jobType: "Full time",
+            companyTitle: "About Company",
+            companyDescription:
+              "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation .",
+          },
+        ]}
+      />
+      <Contact
+        data={{
+          contactImg: "mk.png",
+          contactInfo: [
+            { title: "Write an e-mail", email: "sample@domain.com" },
+            { title: "write an e-mail", tel: "+044 9696 9696 3636" },
           ],
         }}
       />
