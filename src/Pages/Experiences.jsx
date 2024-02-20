@@ -3,7 +3,7 @@ import parser from "html-react-parser";
 
 export default function Experience({ allExperience }) {
   return (
-    <section className="section gray-bg">
+    <section className="section gray-bg" id="experience">
       <div className="container">
         <div className={`section-heading`}>
           <h6

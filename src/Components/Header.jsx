@@ -61,7 +61,7 @@ export default function Header() {
           </li>
           <li>
             <ScrollLink
-              to="Parco"
+              to="experience"
               spy={true}
               smooth={true}
               offset={-80}
