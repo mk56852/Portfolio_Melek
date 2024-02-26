@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/Portfolio_Melek/static/css/main.94a781d7.css",
-    "main.js": "/Portfolio_Melek/static/js/main.0827c3db.js",
+    "main.js": "/Portfolio_Melek/static/js/main.22f1bc37.js",
     "static/js/592.417a4015.chunk.js": "/Portfolio_Melek/static/js/592.417a4015.chunk.js",
     "static/media/bg.jpg": "/Portfolio_Melek/static/media/bg.105be7b29f793c7449ff.jpg",
     "index.html": "/Portfolio_Melek/index.html",
     "main.94a781d7.css.map": "/Portfolio_Melek/static/css/main.94a781d7.css.map",
-    "main.0827c3db.js.map": "/Portfolio_Melek/static/js/main.0827c3db.js.map",
+    "main.22f1bc37.js.map": "/Portfolio_Melek/static/js/main.22f1bc37.js.map",
     "592.417a4015.chunk.js.map": "/Portfolio_Melek/static/js/592.417a4015.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.94a781d7.css",
-    "static/js/main.0827c3db.js"
+    "static/js/main.22f1bc37.js"
   ]
 }
