@@ -19,7 +19,9 @@ export default function Contact({ data }) {
                 data-aos-delay="200"
               >
                 <h5 className="mini-text">{"CONTACT"}</h5>
-                <p className="m-0">{"Contact me"}</p>
+                <p className="m-0">
+                  {"You can send me an e-mail directly from here"}
+                </p>
               </div>
             </div>
           </div>

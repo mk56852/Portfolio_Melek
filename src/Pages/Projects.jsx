@@ -62,7 +62,7 @@ export default function Projects({ data }) {
                 <div key={index} style={{ width: "416px" }}>
                   <div className="project-box">
                     <div className="project-media">
-                      <img src="logo192.png" alt="Thumb" />
+                      <img src={item.thumbUrl} alt="Thumb" />
                       <span
                         className="gallery-link"
                         onClick={() => handelProjectDetails(item, "details")} //() => handelProjectDetails(item, "image")}

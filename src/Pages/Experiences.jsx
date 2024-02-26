@@ -28,8 +28,8 @@ export default function Experience({ allExperience }) {
             >
               <div className="ex-box">
                 <div className="row gy-4">
-                  <div className="col-md-4 col-lg-3">
-                    <div className="ex-left">
+                  <div className="col-md-4 col-lg-3 text-center ">
+                    <div className="ex-left h-100 pt-10">
                       <h4>{item.designation}</h4>
                       <span>{item.company}</span>
                       <p>{item.duration}</p>
@@ -39,7 +39,18 @@ export default function Experience({ allExperience }) {
                   <div className="col-md-8 col-lg-9">
                     <div className="ex-right">
                       <h5 className="mini-text">{item.companyTitle}</h5>
-                      <p className="m-0">{item.companyDescription}</p>
+                      <p className="m-0">
+                        {item.companyDescription
+                          .split("\n")
+                          .map((line, index) => (
+                            <React.Fragment key={index}>
+                              {line}
+                              <br />
+                            </React.Fragment>
+                          ))}
+                      </p>
+                      <h6 className="mini-text">Technologies : </h6>
+                      <p className="m-0"> {item.technologies}</p>
                     </div>
                   </div>
                 </div>

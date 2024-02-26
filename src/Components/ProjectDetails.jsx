@@ -9,7 +9,7 @@ export default function ProjectDetails({ modalData }) {
     <div className="px-modal">
       <div className="single-project-box">
         <div className="row align-items-start">
-          <div className="col-lg-7">
+          <div className="col-lg-6">
             <img className="border" src={thumbUrl} title alt="Thumbnail" />
           </div>
           <div className="col-lg-5 pt-4 pt-lg-0">
@@ -31,16 +31,11 @@ export default function ProjectDetails({ modalData }) {
                 )}
                 {platform && (
                   <li className="d-flex">
-                    <span className="col-4 col-lg-3">Platform:</span>
+                    <span className="col-4 col-lg-3">Technology:</span>
                     <span>{platform}</span>
                   </li>
                 )}
-                {country && (
-                  <li className="d-flex">
-                    <span className="col-4 col-lg-3">Technologies:</span>
-                    <span>{country}</span>
-                  </li>
-                )}
+
                 {url && (
                   <li className="d-flex">
                     <span className="col-4 col-lg-3">URL:</span>

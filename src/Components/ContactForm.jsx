@@ -23,7 +23,7 @@ export default function ContactForm() {
     setLoading(true);
     const formData = new FormData(event.target);
 
-    formData.append("access_key", "paste the key here");
+    formData.append("access_key", "8bc7c958-55d6-4c8a-a2ad-76a5640f53fe");
 
     const object = Object.fromEntries(formData);
     const json = JSON.stringify(object);
@@ -106,6 +106,8 @@ export default function ContactForm() {
             <button
               className={`px-btn w-100 ${loading ? "disabled" : ""}`}
               type="submit"
+              data-toggle="modal"
+              data-target="#exampleModalCenter"
             >
               {loading ? "Sending..." : "Send Message"}
             </button>
