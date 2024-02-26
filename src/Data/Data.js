@@ -57,7 +57,7 @@ const projectsData =
     {
         allProjects: [
           {
-            thumbUrl: "/Pproject/weddingApp.png",
+            thumbUrl: "Pproject/weddingApp.png",
             title: "Tunisia Wedding Planner",
             subTitle: "Mobile Application",
             details: {
@@ -71,7 +71,7 @@ const projectsData =
             },
           },
           {
-            thumbUrl: "/Pproject/cap12.png",
+            thumbUrl: "Pproject/cap12.png",
             title: "DStore",
             subTitle: "Ecommerce Website",
             details: {
@@ -85,7 +85,7 @@ const projectsData =
             },
           },
           {
-            thumbUrl: "/Pproject/locateApp.png",
+            thumbUrl: "Pproject/locateApp.png",
             title: "Locate My Device",
             subTitle: "Mobile Application | Web",
             details: {
@@ -99,7 +99,7 @@ const projectsData =
             },
           },
           {
-            thumbUrl: "/Pproject/chess.png",
+            thumbUrl: "Pproject/chess.png",
             title: "Chess Game",
             subTitle: "Desktop Application",
             details: {
