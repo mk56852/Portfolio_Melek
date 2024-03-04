@@ -59,7 +59,7 @@ export default function AboutUs({ data }) {
               </div>
               <div className="btn-bar">
                 <ScrollLink
-                  onClick={() => window.open("/Ketata-Melek.pdf", "_blank")}
+                  onClick={() => window.open("Melek_Ketata.pdf", "_blank")}
                   spy={true}
                   smooth={true}
                   offset={-80}
