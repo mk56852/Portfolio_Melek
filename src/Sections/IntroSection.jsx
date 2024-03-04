@@ -28,11 +28,11 @@ export default function IntroSection({ introData, socialMediaData }) {
               >
                 <TypeAnimation
                   sequence={[
-                    "Creativity,Innovation",
+                    "Creativity",
                     1500,
                     "Responsability",
                     1500,
-                    "Experience",
+                    "Innovation",
                     1500,
                   ]}
                   speed={0}
